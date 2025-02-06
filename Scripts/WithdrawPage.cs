@@ -34,7 +34,7 @@ public class WithdrawPage : MonoBehaviour {
         if (int.TryParse(manualAmountInputField.text, out int givenAmount)) {
             RequestWithdraw(givenAmount);
         } else {
-            Debug.LogWarning("请输入有效的取款金额");
+            Debug.LogWarning("Please enter a valid amount!");
             ShowInvalidAmountWarning();
         }
     }
