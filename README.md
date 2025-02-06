@@ -158,7 +158,7 @@ For example, for the number 0, the effect would look like this:
 
 That concludes our description of the project structure and the functionality of all the elements.
 
-After you have designed all the UI elements, it's time to assign all the C# scripts.
+After you have designed all the UI elements, it's time to assign all the C# scripts. All the code files are provided in the Scripts folder. You should place all of them in Assets/Scripts in your Unity project directory.
 
 First go to the **data manager**, assign the script **AtmDataManager** to it, and assign the **UI prefab** we have designed to the variable AtmUIPrefab:
 
