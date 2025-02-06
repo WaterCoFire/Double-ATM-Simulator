@@ -2,11 +2,6 @@
 using System.Collections.Concurrent;
 using UnityEngine;
 
-// Made By Group 11:
-// Jieshen Cai 2542682
-// Siyu Yan 2543301
-// Siqi Peng 2542671
-
 // Manages the initialization of the two ATM as well as all the data (e.g., accounts)
 public class AtmDataManager : MonoBehaviour {
     public GameObject atmUIPrefab;
