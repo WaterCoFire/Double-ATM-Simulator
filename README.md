@@ -68,6 +68,8 @@ For the record page:
 
 ![image](https://github.com/user-attachments/assets/954634a6-d0d5-495b-b716-9bf978a0c72b)
 
+Note: the prefab here represents every single transaction record, stored inside the scroll view.
+
 The effect in my project:
 
 ![image](https://github.com/user-attachments/assets/f662b023-fc72-4aed-8cc9-1e3682d4e83a)
