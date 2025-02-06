@@ -16,13 +16,13 @@ This README provides you with important information to personalize your own proj
 
 Like I said before, you should design most of the UIs by yourself, e.g. the style buttons, input fields, information prompts. You should also design an ATM UI picture. The picture that I personally used for the assignment is provided in Resources/Images so feel free to use if you don't want to use your own. You should place it in Assets/Images in your Unity project directory if you want to use it.
 
-<img src="E:\Project\UnityProject\ATM_simulator_consistency\Assets\Images\atmscreen.jpg" alt="atmscreen"/>
+![atmscreen](https://github.com/user-attachments/assets/6d2597db-efd6-48e4-9f3a-cde2c0e2f91a)
 
-<img src="E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\753c12d4fb18468eb4bf7c0ff9d655e.png" alt="753c12d4fb18468eb4bf7c0ff9d655e"/>
+![image](https://github.com/user-attachments/assets/f7e68a90-1421-4e87-b38b-fd3095c05aea)
 
 You should also prepare some sound effects that will be used by the ATM:
 
-<img src="E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\1faad84de2a0f63cff554d783e8cb4f.png" alt="1faad84de2a0f63cff554d783e8cb4f"/>
+![image](https://github.com/user-attachments/assets/5450aa13-a177-405f-b0f8-1ff21c7ca49a)
 
 - ButtonPress.MP3: played when a button is pressed down
 - CashOut.MP3: played when a withdrawal operation is done
@@ -37,11 +37,11 @@ The sound effects that I personally used is also provided in Resources/Sounds so
 
 Once opened a new Unity project, create a **UI prefab** and a **data manager** in your canvas. Please also create a virtual element for managing audio (make sure it has an **Audio Source** attribute). Make your project path look like this:
 
-![a7c9364d54aa6dac1604e1a1898a435](E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\a7c9364d54aa6dac1604e1a1898a435.png)
+![image](https://github.com/user-attachments/assets/3d70b1d7-5c2b-49b3-887a-18261b325abf)
 
 Then create all the elements inside the **UI prefab** according to this:
 
-![cd7747efec2074d0a57e177bc89f769](E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\cd7747efec2074d0a57e177bc89f769.png)
+![image](https://github.com/user-attachments/assets/cc12b641-0ae6-43fc-8f4f-a327ead0b011)
 
 Explanation:
 
@@ -58,93 +58,93 @@ Explanation:
 
 Now let's go to the login page. Make it look like this:
 
-![ec199a06fe82e9536fd91137469efca](E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\ec199a06fe82e9536fd91137469efca.png)
+![image](https://github.com/user-attachments/assets/f16cba47-e5aa-4ab1-a736-1037bae16294)
 
 And for reference, I will show the effect in my personal project: (I will do the same thing for every page UI so don't worry)
 
-<img src="E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\6ce58efe895a4f38eece42dcfd916d3.png" alt="6ce58efe895a4f38eece42dcfd916d3"/>
+![image](https://github.com/user-attachments/assets/7c9afced-18b6-4268-a34f-0708de6a5d68)
 
 For the record page:
 
-![452aaba9520520b8dda0b8ecdfe81d4](E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\452aaba9520520b8dda0b8ecdfe81d4.png)
+![image](https://github.com/user-attachments/assets/954634a6-d0d5-495b-b716-9bf978a0c72b)
 
 The effect in my project:
 
-<img src="E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\e1c5137410c74125f1fe7103e7a364b.png" alt="e1c5137410c74125f1fe7103e7a364b"/>
+![image](https://github.com/user-attachments/assets/f662b023-fc72-4aed-8cc9-1e3682d4e83a)
 
 For the main page:
 
-![2cd7c582789816e0b724fc1fdb1d7bb](E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\2cd7c582789816e0b724fc1fdb1d7bb.png)
+![image](https://github.com/user-attachments/assets/e234d0c0-7eb5-48a9-813c-b50fb33bed89)
 
 The effect in my project:
 
-<img src="E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\1ff939a301d497768a6c450e30054ee.png" alt="1ff939a301d497768a6c450e30054ee"/>
+![image](https://github.com/user-attachments/assets/c51a43d0-6ad0-4190-8d25-91135ea74eed)
 
 Note that in this main page, there are **two subpages** - **balance check page** and **quitting page**. They are subpages because their still exist within the main page.
 
 Make them look like this:
 
-![9c2c562c13b3b5b2dc3fe089eb870ba](E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\9c2c562c13b3b5b2dc3fe089eb870ba.png)
+![image](https://github.com/user-attachments/assets/f9c6f311-78e5-41ff-bee2-5418399bad31)
 
 The effect in my project:
 
-<img src="E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\f486f58a8636f40cc756ff8fb748a2c.png" alt="f486f58a8636f40cc756ff8fb748a2c"/>
+![image](https://github.com/user-attachments/assets/9818d29f-9f2f-4bf8-bab3-521547662804)
 
-<img src="E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\22bc402c0fd2b160c1c31b76378e8b9.png" alt="22bc402c0fd2b160c1c31b76378e8b9"/>
+![image](https://github.com/user-attachments/assets/d7d32dca-9ce7-4ec9-915e-4a609f888b17)
 
 Now, for the withdraw page:
 
-![ec9d78bc2fcdefdcf4a81475451bb62](E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\ec9d78bc2fcdefdcf4a81475451bb62.png)
+![image](https://github.com/user-attachments/assets/a73e3352-a09f-4534-b5db-c14369b9430b)
 
-<img src="E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\b7592a80b38c73b73428565ae44a1a3.png" alt="b7592a80b38c73b73428565ae44a1a3"/>
+![image](https://github.com/user-attachments/assets/40023fc1-e27f-4088-a44f-c6eabd488e81)
 
 Note that there are three prompt-related elements: **warning prompt**, **processing prompt** and **success prompt**. You can simply place them in the same place (as at most one will be shown at the same time) where there's space and make sure they are always visible when activated. In my case, I placed it a little bit below the balance display area (below the "Your Balance: 240" in this picture.)
 
 Now turn to the transfer page:
 
-![62928b9a9114504fe0249178c4c6264](E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\62928b9a9114504fe0249178c4c6264.png)
+![image](https://github.com/user-attachments/assets/eff5a434-8023-4697-8ff3-1ec0b0835201)
 
 You can see that there are actually two components: the page for **selecting the account** and the page for **selecting the amount**. When entering the transfer page from the main page, **the account selection page will always be shown first** (as you have to select the account you wanna transfer money to before you choose how much money you wanna transfer to that account).
 
 Firstly, for the account selection page:
 
-![a959232035da94c7d81be71fc80cd40](E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\a959232035da94c7d81be71fc80cd40.png)
+![image](https://github.com/user-attachments/assets/97285d49-3174-49c0-bfad-dd58f4b3c1f4)
 
 And the effect in my project:
 
-<img src="E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\606918796e1ff825ed7f08072a13873.png" alt="606918796e1ff825ed7f08072a13873"/>
+![image](https://github.com/user-attachments/assets/5a0b2345-c106-46e6-b435-198e4a8d5876)
 
 Note: the big "Transfer" title in this picture is exactly the "Transfer Title" element designed inside the transfer page. You can see that it does not belong to either component, because in both pages, this title will always be shown.
 
 Secondly, for the amount selection page:
 
-![e5391514bcd086fa9a0eb66bd8e6ff8](E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\e5391514bcd086fa9a0eb66bd8e6ff8.png)
+![image](https://github.com/user-attachments/assets/343401f0-7832-4661-89b0-b8d61ca5985c)
 
 You can see that it's actually pretty similar to the withdraw page, except that there is another text element designed for displaying the receiver (i.e. the person that you're gonna transfer the money to).
 
 And the effect in my project:
 
-<img src="E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\50ca4dd12aa139f94be5ccc4e5121ee.png" alt="50ca4dd12aa139f94be5ccc4e5121ee"/>
+![image](https://github.com/user-attachments/assets/80ac681a-9be1-4382-a226-9650c3951b3d)
 
 And for the occupied page:
 
-![a210bfca9c4e8955f6cea83e003f859](E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\a210bfca9c4e8955f6cea83e003f859.png)
+![image](https://github.com/user-attachments/assets/ac49e170-6a73-4676-9740-c32f68ff13e6)
 
 The reason why it is separate and does not belong to any other page is that it could be used in several pages, e.g. withdrawal, transfer.
 
 The effect in my project:
 
-<img src="E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\cb23745faf891d8fc5acbcfc13d5693.png" alt="cb23745faf891d8fc5acbcfc13d5693"/>
+![image](https://github.com/user-attachments/assets/adb3c260-3d5a-4ac1-a8f2-43c5d3651493)
 
 Now let's turn to the number keyboard effects.
 
-![3a837c585b2ad75b96a001235bbaa13](E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\3a837c585b2ad75b96a001235bbaa13.png)
+![image](https://github.com/user-attachments/assets/35268479-1b9e-43be-993b-55005c7bad3a)
 
 Simply design ten small translucent grey squares and place them in the corresponding positions of key 0-9 on the numeric keypad on your ATM UI picture.
 
 For example, for the number 0, the effect would look like this:
 
-![da16819a1680f0a26cee5c2fa28d4fc](E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\da16819a1680f0a26cee5c2fa28d4fc.png)
+![image](https://github.com/user-attachments/assets/612ed6e8-81ea-4af1-9ea3-552605d8b323)
 
 That concludes our description of the project structure and the functionality of all the elements.
 
@@ -152,37 +152,37 @@ After you have designed all the UI elements, it's time to assign all the C# scri
 
 First go to the **data manager**, assign the script **AtmDataManager** to it, and assign the **UI prefab** we have designed to the variable AtmUIPrefab:
 
-![319981004a3ce707469034d9c44c115](E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\319981004a3ce707469034d9c44c115.png)
+![image](https://github.com/user-attachments/assets/09b89a0f-96a3-492c-8d40-ec70a3a61457)
 
 Now turn to the UI prefab.
 
 For the ATM terminal, assign the scripts and variables like this:
 
-<img src="E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\20e96a0f024c33d25bd319a069acf52.png" alt="20e96a0f024c33d25bd319a069acf52"/>
+![image](https://github.com/user-attachments/assets/ecf4c65c-28ff-4790-bc5b-0f7e97459b29)
 
 For the login page:
 
-![ed452db9967dfe09306413cd11bf337](E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\ed452db9967dfe09306413cd11bf337.png)
+![image](https://github.com/user-attachments/assets/a7410208-eb4d-47dd-a06c-2a180ca430dc)
 
 For the record page: ("内容" here means content)
 
-![8bd646664d7860c163181ed22a90419](E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\8bd646664d7860c163181ed22a90419.png)
+![image](https://github.com/user-attachments/assets/ebf35bac-3f07-48b7-a237-92e6b2ed1536)
 
 For the main page:
 
-![f5dbb65738fa5b406a0ccde5933644f](E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\f5dbb65738fa5b406a0ccde5933644f.png)
+![image](https://github.com/user-attachments/assets/5ccb41a3-c326-41f8-a091-3cd478dc5cd7)
 
 For the withdraw page:
 
-![dd9b639d82bf69e4cd1579435d1d92a](E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\dd9b639d82bf69e4cd1579435d1d92a.png)
+![image](https://github.com/user-attachments/assets/846fbf83-1f30-46d1-bc62-13d075ccfb0a)
 
 For the transfer page:
 
-![cb928e8f3c4d1aaa47620da88418019](E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\cb928e8f3c4d1aaa47620da88418019.png)
+![image](https://github.com/user-attachments/assets/f8bee3c4-013f-4b87-bea9-ac0f3787d8fd)
 
 Finally, go the the audio manager, assign the script **AudioManager** and assign the **ButtonPress** sound effect to it:
 
-![25773d0e6699c29a87025cbe6074ade](E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\25773d0e6699c29a87025cbe6074ade.png)
+![image](https://github.com/user-attachments/assets/490ac078-0ff2-43e4-97eb-2e3b6f517d1a)
 
 And then we have finished the setup of the entire project!
 
@@ -190,7 +190,7 @@ And then we have finished the setup of the entire project!
 
 The data about accounts is set in AtmDataManager class:
 
-<img src="E:\WeChat\WeChat Files\wxid_dr8dc1x6tspj31\FileStorage\Temp\09f08d19a8c521a6d58a97944440349.png" alt="09f08d19a8c521a6d58a97944440349"/>
+![image](https://github.com/user-attachments/assets/e71c9d4b-905e-4e9d-a09d-763c49d4d954)
 
 By default, there are three accounts:
 
