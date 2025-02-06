@@ -53,7 +53,7 @@ Explanation:
 - Withdraw Page: Balance withdrawal UI.
 - Transfer Page: Balance transfer UI. Transfer means sending some balance to another account.
 - Occupied Page: A popup warning, indicating that another transaction is being performed on the other ATM with the same account logged in. This exists precisely because, as I said previously, this is the data-consistent version, so we don't want data races to cause problems.
-- Function Button 0-7: All the physical buttons of the ATM, four on each side.
+- Function Button 0-7: All the physical buttons of the ATM, four on each side. Make their No. from top to bottom: Left 0-3 + Right 4-7.
 - Number Keyboard Effects:  A feature to enhance the simulation. Contains 10 small translucent squares representing the 0-9 buttons on the numeric keypad. When a number is detected to be pressed, the corresponding small square is automatically displayed, simulating the corresponding number being pressed on the ATM keypad.
 
 Now let's go to the login page. Make it look like this:
