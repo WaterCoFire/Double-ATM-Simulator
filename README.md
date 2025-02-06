@@ -92,7 +92,7 @@ The effect in my project:
 
 ![image](https://github.com/user-attachments/assets/9818d29f-9f2f-4bf8-bab3-521547662804)
 
-<img width="280" alt="22bc402c0fd2b160c1c31b76378e8b9" src="https://github.com/user-attachments/assets/68eaa6b9-2143-4181-b986-f8efd0adb242" />
+![image](https://github.com/user-attachments/assets/24b4a47f-8931-4af5-8897-1f30a56f5f0e)
 
 Now, for the withdraw page:
 
