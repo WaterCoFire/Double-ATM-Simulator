@@ -18,7 +18,7 @@ This README provides you with important information to personalize your own proj
 
 ## Get Started
 
-Like I said before, you should design most of the UIs by yourself, e.g. the style buttons, input fields, information prompts. You should also design an ATM UI picture. The picture that I personally used for the assignment is provided in Resources/Images so feel free to use if you don't want to use your own. You should place it in Assets/Images in your Unity project directory if you want to use it.
+Like I said before, you should design most of the UIs by yourself, e.g. the style of buttons, input fields, information prompts. You should also design an ATM UI picture. The picture that I personally used for the assignment is provided in Resources/Images so feel free to use if you don't want to use your own. You should place it in Assets/Images in your Unity project directory if you want to use it.
 
 The picture provided:
 
